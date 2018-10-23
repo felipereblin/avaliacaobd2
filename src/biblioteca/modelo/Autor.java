@@ -1,4 +1,4 @@
-package banco.modelo;
+package biblioteca.modelo;
 
 
 public class Autor implements Imprimivel {

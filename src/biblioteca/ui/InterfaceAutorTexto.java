@@ -1,9 +1,9 @@
-package banco.ui;
+package biblioteca.ui;
 
 import java.util.List;
 
-import banco.dao.AutorDao;
-import banco.modelo.Autor;
+import biblioteca.dao.AutorDao;
+import biblioteca.modelo.Autor;
 
 public class InterfaceAutorTexto extends InterfaceModeloTexto {
 	

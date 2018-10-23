@@ -1,4 +1,4 @@
-package banco.dao;
+package biblioteca.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,8 +8,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import banco.modelo.Autor;
-import banco.modelo.Livro;
+import biblioteca.modelo.Autor;
+import biblioteca.modelo.Livro;
 
 public class LivroDao implements Dao<Livro> {
 	

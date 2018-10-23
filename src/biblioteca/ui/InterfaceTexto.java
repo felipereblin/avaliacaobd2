@@ -1,4 +1,4 @@
-package banco.ui;
+package biblioteca.ui;
 
 import java.util.Scanner;
 

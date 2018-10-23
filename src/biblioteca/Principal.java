@@ -1,6 +1,6 @@
-package banco;
+package biblioteca;
 
-import banco.ui.InterfaceTexto;
+import biblioteca.ui.InterfaceTexto;
 
 
 public class Principal {
