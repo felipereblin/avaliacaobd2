@@ -33,6 +33,7 @@ public class InterfaceLivroTexto extends InterfaceModeloTexto {
 		
 		System.out.print("Insira o ano de publicação: ");
 		int anoPublicacao = entrada.nextInt();
+		entrada.nextLine();
 		
 		System.out.print("Insira a editora: ");
 		String editora = entrada.nextLine();
@@ -52,7 +53,7 @@ public class InterfaceLivroTexto extends InterfaceModeloTexto {
 		System.out.println("Lista de livros");
 		System.out.println();
 		
-		System.out.println("id\tTítulo\tAnoPublicacao\tEditora\tID do Autor\tNome do Autor");
+		System.out.println("id\tTítulo\tAnoPublicacao\tEditora\tNome do Autor");
 		
 		for (Livro livro : livros) {
 			imprimeItem(livro);

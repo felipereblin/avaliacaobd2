@@ -19,7 +19,7 @@ public class InterfaceAutorTexto extends InterfaceModeloTexto {
 		System.out.print("Insira o nome do autor: ");
 		String nome = entrada.nextLine();
 		
-		System.out.println("Insira o CPF do autor (somente nÃºmeros): ");
+		System.out.println("Insira o CPF do autor (somente números): ");
 		long cpf = entrada.nextLong();
 		entrada.nextLine();
 		

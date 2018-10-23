@@ -69,7 +69,7 @@ public class Livro implements Imprimivel {
 
 	@Override
 	public String imprimeEmLista() {
-		return String.format("%d\t%d\t%d\t%.2f\t%d\t%s", getId(), getTitulo(), getAnoPublicacao(), getEditora(), 
+		return String.format("%d\t%s\t%d\t%s\t%s", getId(), getTitulo(), getAnoPublicacao(), getEditora(), 
 				getAutor().getNome());
 	}
 
