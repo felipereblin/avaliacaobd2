@@ -13,7 +13,7 @@ import biblioteca.modelo.Livro;
 
 public class LivroDao implements Dao<Livro> {
 	
-	private static final String GET_BY_ID = "SELECT * FROM livro l JOIN autor a on a.id = l.autor_id WHERE id = ?";
+	private static final String GET_BY_ID = "SELECT * FROM livro l JOIN autor a on a.id = l.autor_id WHERE l.id = ?";
 	private static final String GET_ALL = "SELECT * FROM livro l JOIN autor a on a.id = l.autor_id";
 	private static final String INSERT = "INSERT INTO livro (titulo, anoPublicacao, editora, autor_id) "
 			+ "VALUES (?, ?, ?, ?)";
